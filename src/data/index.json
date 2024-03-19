@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "id": 1,
+            "src": "./img/Work1.png",
+            "title": "NU Laguna Website",
+            "description": "A School Project in Web Programming 1 using HTML and CSS",
+            "link":"Github Repository",
+            "demo": "Live Demo"
+        },
+        {
+            "id": 2,
+            "src": "./img/Work2.png",
+            "title": "Personal Blog Website",
+            "description": "School Project in Intro Computing using HTML and CSS",
+            "link":"Github Repository",
+            "demo": "Live Demo"
+        },
+        {
+            "id": 3,
+            "src": "./img/Work3.png",
+            "title": "ToDo List App Website",
+            "description": "Practing my coding skill using React.Js and Style Components",
+            "link": "Github Repository",
+            "demo": ""
+        }
+    ]
+}
