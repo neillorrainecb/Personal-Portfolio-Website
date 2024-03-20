@@ -10,10 +10,12 @@ export default function Portfolio(){
             </div>
 
             <div>
-                <button className="btn btn-github">
-                <i class="fa-brands fa-github-alt"></i>
-                Visit My Github
-                </button>
+                <a href="https://github.com/neillorrainecb" className="btn-link">
+                    <button className="btn btn-github">
+                        <i class="fa-brands fa-github-alt"></i>
+                        Visit My Github
+                    </button>
+                </a>
             </div>
        </div>
        <div className="portfolio--section--container">
@@ -25,15 +27,17 @@ export default function Portfolio(){
                 <div className="portfolio--section--card--content">
                     <div>
                         <h3 className="portfolio--section--title">{item.title}</h3>
-                        <p className="text-md">{item.description}</p>
+                        <p className="text-md">{item.technologies}</p>
                     </div>
-                    <p className="text-sm portfolio--link">{item.link}
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </p>
-
-                    <p className="text-sm portfolio--link">{item.demo}
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </p>
+                    <div className="portfolio--section--link">
+                        <a href={item.link}>
+                        <i class="fa-brands fa-github icons"></i>
+                        </a>
+                        
+                        <a href={item.demo}>
+                        <i class="fa-solid fa-globe icons"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         ))}

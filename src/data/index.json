@@ -4,24 +4,31 @@
             "id": 1,
             "src": "./img/Work1.png",
             "title": "NU Laguna Website",
-            "description": "A School Project in Web Programming 1 using HTML and CSS",
-            "link":"Github Repository",
-            "demo": "Live Demo"
+            "technologies": "Technologies: HTML and CSS",
+            "link":"https://github.com/neillorrainecb/SP-NU-Laguna-Website",
+            "demo": "https://neillorrainecb.github.io/SP-NU-Laguna-Website/"
         },
         {
             "id": 2,
             "src": "./img/Work2.png",
             "title": "Personal Blog Website",
-            "description": "School Project in Intro Computing using HTML and CSS",
-            "link":"Github Repository",
-            "demo": "Live Demo"
+            "technologies": "Technologies: HTML and CSS",
+            "link":"https://github.com/neillorrainecb/SP-Personal-Blog-Web",
+            "demo": "https://neillorrainecb.github.io/SP-Personal-Blog-Web/"
         },
         {
             "id": 3,
             "src": "./img/Work3.png",
             "title": "ToDo List App Website",
-            "description": "Practing my coding skill using React.Js and Style Components",
-            "link": "Github Repository",
+            "technologies": "Technologies: React.Js",
+            "link": "https://github.com/neillorrainecb/ToDo-List-App"
+        },
+        {
+            "id": 3,
+            "src": "./img/Work3.png",
+            "title": "ToDo List App Website",
+            "technologies": "Technologies: React.Js",
+            "link": "https://github.com/neillorrainecb/ToDo-List-App",
             "demo": ""
         }
     ]

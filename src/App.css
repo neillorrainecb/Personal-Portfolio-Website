@@ -371,9 +371,8 @@ h3{
 }
 
 .portfolio--section--container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 42.6px;
     gap: 42.6px;
     width: 100%;
@@ -386,6 +385,9 @@ h3{
 }
 
 .portfolio--section--img > img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: var(--bg-shade);
     width: 100%;
 }
 
@@ -399,17 +401,20 @@ h3{
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
     border: 0.5px solid rgb(243, 243, 243);
     cursor: pointer;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 12px;
 }
 
 .portfolio--section--card--content{
     display: flex;
-    padding: 32px;
+    padding: 28px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
+}
+
+.portfolio--section--card--content > a{
+    text-decoration: none;
 }
 
 .portfolio--section--title{
@@ -420,8 +425,32 @@ h3{
     text-decoration: none;
     display: flex;
     gap: 16px;
-    border-bottom:1.33px solid var(--primary);
+    border-bottom:1.33px solid var(--darkblue);
     padding-bottom: 10.6px;
     font-weight: 600;
     align-items: center;
+}
+
+.portfolio--section--link{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icons{
+    color: var(--heading-color);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: var(--white);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.icons:hover{
+    color: var(--github);
+}
+
+.btn-link{
+ text-decoration: none;
 }

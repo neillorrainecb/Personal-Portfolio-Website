@@ -107,18 +107,24 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
+
+      <div className="hero--section--socials">
+        <a className="hero--section--socials-link" href="https://www.linkedin.com/in/neillorrainecb/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a className="hero--section--socials-link" href="https://github.com/neillorrainecb">              
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+
+        <a className="hero--section--socials-link" href="https://www.behance.net/neillorrainecb">
+          <i class="fa-brands fa-square-behance"></i>
+        </a>  
+
+        <a className="hero--section--socials-link" href='mailto:neillorrainecb@gmail.com'>
+          <i class="fa-solid fa-square-envelope"></i>
+        </a>
+      </div>
     </nav>
   );
 }
