@@ -15,31 +15,43 @@ export default function AboutMe(){
                     <div className="skills">
                         <div className="box-container">
                             <div className="box">
-                                <i class="fa-brands fa-java skills-icon"></i>
+                                <img className="skills-icon" src="./img/Skills/S1.png" alt="" />
                             </div>
                             
                             <div className="box">
-                                <i class="fa-brands fa-html5 skills-icon"></i>
+                                <img className="skills-icon" src="./img/Skills/S2.png" alt="" />
                             </div>
 
                             <div className="box">
-                                <i class="fa-brands fa-css3-alt skills-icon"></i>
+                                <img className="skills-icon" src="./img/Skills/S3.png" alt="" />
                             </div>
 
                             <div className="box">
-                                <i class="fa-brands fa-php skills-icon"></i> 
-                            </div>
-                            
-                            <div className="box">
-                                <i class="fa-brands fa-react skills-icon"></i>
+                                <img className="skills-icon" src="./img/Skills/S4.png" alt="" />
                             </div>
 
                             <div className="box">
-                                <i class="fa-brands fa-js skills-icon"></i>
+                                <img className="skills-icon" src="./img/Skills/S5.png" alt="" />
                             </div>
 
                             <div className="box">
-                            <i class="fa-brands fa-figma skills-icon"></i>
+                                <img className="skills-icon" src="./img/Skills/S6.png" alt="" />
+                            </div>
+
+                            <div className="box">
+                                <img className="skills-icon" src="./img/Skills/S7.png" alt="" />
+                            </div>
+
+                            <div className="box">
+                                <img className="skills-icon" src="./img/Skills/S8.png" alt="" />
+                            </div>
+
+                            <div className="box">
+                                <img className="skills-icon" src="./img/Skills/S9.png" alt="" />
+                            </div>
+
+                            <div className="box">
+                                <img className="skills-icon" src="./img/Skills/S10.png" alt="" />
                             </div>
                         </div>
                     </div>
