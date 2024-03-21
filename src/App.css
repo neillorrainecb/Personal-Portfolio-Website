@@ -327,27 +327,90 @@ h3{
 .skills{
     display: flex;
     flex-direction: column;
-    height: 100%;
     -webkit-box-align: center;
     align-items: center;
+    height: 100%;
 }
 
 .box{
     padding: 20px;
-    margin-top: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
     background-color: white;
     border-radius: 25px;
 }
 
 .skills-icon{
-    align-items: center;
-    justify-content: center;
     height: 60px;
     width: 60px;
 }
 
-/* Education */
+/* Experience */
+.exp--section{
+    padding: 112px 20rem;
+    background-color: var(--bg-shade);
+}
+
+.exp--section--title{
+    text-align: center;
+}
+
+.resume--container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 30px;
+}
+
+.timeline{
+    background-color: var(--white);
+    padding: 1.875rem;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.timeline--item{
+    position: relative;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-bottom: 1.5rem;
+}
+
+.timeline--item:last-child{
+    padding-bottom: 0;
+}
+
+.timeline--item::before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: var(--darkblue);
+    position: absolute;
+    left: .25rem;
+    top: 0
+}
+
+.timeline .icon-briefcase,
+.timeline .icon-graduation{
+    position: absolute;
+    left: -0.4375rem;
+    top: 0;
+    font-size: 24px;
+    color: var(--darkblue);
+    background-color: var(--white);
+    padding: 0.4375rem 0;
+}
+
+.timeline--date{
+    color: var(--darkblue);
+    font-size: 14px;
+}
+
+.timeline--title{
+    font-size: 24px;
+}
+
+.timeline--text{
+}
 
 /* Portfolio */
 .portfolio--section{
@@ -450,7 +513,7 @@ h3{
 }
 
 .icons:hover{
-    color: var(--github);
+    color: var(--primary);
 }
 
 .btn-link{

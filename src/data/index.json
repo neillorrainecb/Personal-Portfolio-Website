@@ -2,7 +2,7 @@
     "portfolio": [
         {
             "id": 1,
-            "src": "./img/Work1.png",
+            "src": "./img/Works/Work1.png",
             "title": "NU Laguna Website",
             "technologies": "Technologies: HTML and CSS",
             "link":"https://github.com/neillorrainecb/SP-NU-Laguna-Website",
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "src": "./img/Work2.png",
+            "src": "./img/Works/Work2.png",
             "title": "Personal Blog Website",
             "technologies": "Technologies: HTML and CSS",
             "link":"https://github.com/neillorrainecb/SP-Personal-Blog-Web",
@@ -18,17 +18,17 @@
         },
         {
             "id": 3,
-            "src": "./img/Work3.png",
+            "src": "./img/Works/Work3.png",
             "title": "ToDo List App Website",
             "technologies": "Technologies: React.Js",
             "link": "https://github.com/neillorrainecb/ToDo-List-App"
         },
         {
             "id": 3,
-            "src": "./img/Work3.png",
-            "title": "ToDo List App Website",
+            "src": "./img/Works/Work3.png",
+            "title": "Personal Portfolio Website",
             "technologies": "Technologies: React.Js",
-            "link": "https://github.com/neillorrainecb/ToDo-List-App",
+            "link": "",
             "demo": ""
         }
     ]
