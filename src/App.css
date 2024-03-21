@@ -177,6 +177,7 @@ h3{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9999;
 }
 
 .navbar--items > ul{
@@ -346,8 +347,10 @@ h3{
 
 /* Experience */
 .exp--section{
+    display: grid;
+    align-items: center;
+    justify-content: center;
     padding: 112px 20rem;
-    background-color: var(--bg-shade);
 }
 
 .exp--section--title{
@@ -372,7 +375,7 @@ h3{
     position: relative;
     padding-left: 3.125rem;
     padding-right: 3.125rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .timeline--item:last-child{
@@ -409,15 +412,13 @@ h3{
     font-size: 24px;
 }
 
-.timeline--text{
-}
-
 /* Portfolio */
 .portfolio--section{
     display: flex;
     padding: 112px 20rem;
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--bg-shade);
     gap: 80px;
 }
 
@@ -444,15 +445,15 @@ h3{
 }
 
 .portfolio--section--img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     width: 100%;
 }
 
 .portfolio--section--img > img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    background-color: var(--bg-shade);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #F6F6F6;
     width: 100%;
 }
 
@@ -466,7 +467,7 @@ h3{
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
     border: 0.5px solid rgb(243, 243, 243);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
 .portfolio--section--card--content{
@@ -518,4 +519,40 @@ h3{
 
 .btn-link{
  text-decoration: none;
+}
+
+/* Certificate */
+.certificate--section{
+    padding: 112px 20rem;
+    background-color: var(--bg-shade);
+    gap: 80px;
+}
+
+.certificate--title{
+    text-align: center;
+}
+
+.cert-img{
+    display: block;
+    width: 100%;
+    height: 18rem;
+    border-radius: 17px;
+}
+
+.certificate--container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 55px;
+}
+
+.certificate--box{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+    background-color: white;
+    border-radius: 25px;
 }

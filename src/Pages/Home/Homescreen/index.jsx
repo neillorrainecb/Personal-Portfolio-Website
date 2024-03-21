@@ -1,4 +1,5 @@
 import AboutMe from "../AboutMe";
+import Certificate from "../Certificate";
 import Experience from "../Experience";
 import HeroSection from "../HeroSection";
 import Portfolio from "../Portfolio";
@@ -8,8 +9,9 @@ export default function Home (){
         <>
             <HeroSection />
             <AboutMe />
-            <Experience />
             <Portfolio />
+            <Experience />
+            <Certificate />
         </>
     )
 }

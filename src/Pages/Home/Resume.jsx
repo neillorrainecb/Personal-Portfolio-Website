@@ -6,7 +6,7 @@ const Resume = [
         category: "education",
         icon: "icon-graduation",
         year: "2019 - 2023",
-        title: "Tertiary",
+        title: "College Degree",
         desc: "National University Laguna",
         course: "Bachelor of Science in Computer Science"
     },

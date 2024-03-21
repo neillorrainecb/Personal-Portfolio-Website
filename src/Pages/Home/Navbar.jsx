@@ -85,20 +85,6 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="experience"
-              className="navbar--content"
-            >
-              Experience
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
               to="portfolio"
               className="navbar--content"
             >
@@ -113,7 +99,21 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to=""
+              to="experience"
+              className="navbar--content"
+            >
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="certificate"
               className="navbar--content"
             >
               Certificate
