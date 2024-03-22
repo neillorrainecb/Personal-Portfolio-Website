@@ -5,8 +5,8 @@ export default function Experience(){
     return( 
     <section id="experience" className="exp--section exp--resume exp--container">
         <div className="exp--section--title">
-            <h2>Qualification</h2>
-            <p>Academic and Experience Journey</p>
+            <h2 className="heading--title">Qualification</h2>
+            <p className="sub--title">Academic and Job Experience Journey</p>
         </div>
 
         <div className="resume--container grid">

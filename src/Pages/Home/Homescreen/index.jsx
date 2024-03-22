@@ -3,6 +3,7 @@ import Certificate from "../Certificate";
 import Experience from "../Experience";
 import HeroSection from "../HeroSection";
 import Portfolio from "../Portfolio";
+import Footer from "../Footer";
 
 export default function Home (){
     return(
@@ -12,6 +13,7 @@ export default function Home (){
             <Portfolio />
             <Experience />
             <Certificate />
+            <Footer />
         </>
     )
 }

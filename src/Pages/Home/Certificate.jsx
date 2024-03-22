@@ -2,7 +2,7 @@ export default function Certificate(){
     return( 
         <section id="certificate" className="certificate--section">
             <div className="certificate--title">
-                <h2>Trainings and Certificates</h2>
+                <h2 className="heading--title">Trainings and Certificates</h2>
             </div>
             
             <div className="certificate--container">
@@ -29,10 +29,6 @@ export default function Certificate(){
 
                 <div className="certificate--box">
                     <img className="cert-img" src="./img/Certificate/C5.png" alt="" />
-                </div>
-
-                <div className="certificate--box">
-                    <img className="cert-img" src="./img/Certificate/C6.png" alt="" />
                 </div>
             </div>
         </section>
