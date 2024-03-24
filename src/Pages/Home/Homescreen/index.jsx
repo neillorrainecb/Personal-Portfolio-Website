@@ -11,9 +11,9 @@ export default function Home (){
             <HeroSection />
             <AboutMe />
             <Portfolio />
-            <Experience />
+            {/* <Experience />
             <Certificate />
-            <Footer />
+            <Footer /> */}
         </>
     )
 }

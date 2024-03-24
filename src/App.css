@@ -626,13 +626,22 @@ h3{
     }
 
     .about--section--img{
-            display: none;
+        display: none;
     }
 
     .about--section--content{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    /* Portfolio */
+    .portfolio--section{
+        padding: 7rem 5rem
+    }
+
+    .portfolio--section--container{
+        grid-template-columns: repeat(2, 1fr);
     }
   }
   
@@ -682,6 +691,30 @@ h3{
     .box{
         padding: 10px;
         border-radius: 20px;
+    }
+
+    /* Portfolio */
+    .portfolio--section{
+        padding: 3rem 2rem
+    }
+
+    .portfolio--container--box{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio--container{
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn-github{
+        margin-top: 30px;
+    }
+
+    .portfolio--section--container{
+        grid-template-columns: repeat(1, 1fr);
     }
   }
 
