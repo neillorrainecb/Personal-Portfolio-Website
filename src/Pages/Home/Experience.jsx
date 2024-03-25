@@ -11,6 +11,8 @@ export default function Experience(){
 
         <div className="resume--container grid">
             <div className="timeline grid">
+                <h3 className="exp--title">Academic</h3>
+                <hr className="exp--divider" />
                 {Data.map((val, id) => {
                     if(val.category === "education"){
                         return(
@@ -28,6 +30,8 @@ export default function Experience(){
             </div>
 
             <div className="timeline grid">
+            <h3 className="exp--title">Job Experience</h3>
+            <hr className="exp--divider" />
                 {Data.map((val, index) => {
                     if(val.category === "experience"){
                         return(

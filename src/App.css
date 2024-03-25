@@ -364,6 +364,19 @@ h3{
     margin-top: 30px;
 }
 
+.exp--title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.exp--divider {
+    margin-bottom: 40px;
+    height: 0.1px;
+    width: 100%;
+    background: rgba(236, 236, 236, 0.966);
+   
+}
+
 .timeline{
     background-color: var(--white);
     padding: 1.875rem;
@@ -564,7 +577,7 @@ h3{
     padding: 50px 120px;
     flex-direction: column;
     align-self: stretch;
-  }
+}
 
 .divider {
     /* margin: 106px 0 42.67px; */
@@ -572,6 +585,7 @@ h3{
     width: 100%;
     background: rgba(224, 224, 224, 0.55);
 }
+
 .footer--content--container {
     display: flex;
     justify-content: space-between;
@@ -643,14 +657,46 @@ h3{
     .portfolio--section--container{
         grid-template-columns: repeat(2, 1fr);
     }
-  }
+
+    /* Experiene */
+    .resume--container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .exp--section{
+        padding: 7rem 5rem;
+    }
+
+    /* Certificate */
+    .certificate--section{
+        padding: 7rem 5rem;
+    }
+
+    .certificate--container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cert-img{
+        height: 15rem;
+    }
+}
   
 
   @media only screen and (max-width: 600px){
+
+    .heading--title{
+        font-size: 35px;
+    }
+
+    .sub--title{
+        font-size: 15px;
+    }
+
     .hero--section{
         display: flex;
         flex-direction: column-reverse;
-        padding: 8rem 2rem;
+        padding: 9rem 2rem;
     }
 
     .hero--section--title{
@@ -659,14 +705,15 @@ h3{
     }
 
     .hero--section-description{
-        font-size: 18px;
+        font-size: 13px;
+        padding: 0;
     }
 
     /* About Me */
     .about--section{
         display: flex;
         flex-direction: column-reverse;
-        padding: 3rem 4rem
+        padding: 5rem 4rem
     }
 
     .about--section--img{
@@ -695,7 +742,7 @@ h3{
 
     /* Portfolio */
     .portfolio--section{
-        padding: 3rem 2rem
+        padding: 5rem 2rem
     }
 
     .portfolio--container--box{
@@ -707,6 +754,7 @@ h3{
     .portfolio--container{
         text-align: center;
         align-items: center;
+        gap: 0px;
     }
 
     .btn-github{
@@ -716,9 +764,51 @@ h3{
     .portfolio--section--container{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* Experiene */
+    .resume--container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .exp--section{
+        padding: 5rem 2rem;
+    }
+
+    /* Certificate */
+    .certificate--section{
+        padding: 5rem 2rem;
+    }
+
+    .certificate--container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cert-img{
+        height: 15rem;
+    }
+
+    /* Footer */
+    .footer--container {
+        padding: 1rem 2rem;
+    }
+
+    .footer--content{
+        text-align: center;
+        font-size: 10px;
+    }
   }
 
   @media only screen and (max-width: 400px){
+    
+    .heading--title{
+        font-size: 35px;
+    }
+
+    .sub--title{
+        font-size: 15px;
+    }
+
     .hero--section{
         display: flex;
         flex-direction: column-reverse;
