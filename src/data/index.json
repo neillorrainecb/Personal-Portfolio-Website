@@ -3,16 +3,16 @@
         {
             "id": 1,
             "src": "./img/Works/Work1.png",
-            "title": "NU Laguna Website",
-            "technologies": "Technologies: HTML and CSS",
+            "title": "NU Laguna Mock Website",
+            "technologies": "The NU-Laguna Mock website was a school project to provide information about campus life, admissions, and academic programs. It was developed using HTML and CSS.",
             "link":"https://github.com/neillorrainecb/SP-NU-Laguna-Website",
             "demo": "https://neillorrainecb.github.io/SP-NU-Laguna-Website/"
         },
         {
             "id": 2,
             "src": "./img/Works/Work2.png",
-            "title": "Personal Blog Website",
-            "technologies": "Technologies: HTML and CSS",
+            "title": "Student Personal Blog Website",
+            "technologies": "This Personal website was a school project that showcased of a student's academic journey and achievements, it was developed using HTML and CSS.",
             "link":"https://github.com/neillorrainecb/SP-Personal-Blog-Web",
             "demo": "https://neillorrainecb.github.io/SP-Personal-Blog-Web/"
         },
@@ -20,16 +20,25 @@
             "id": 3,
             "src": "./img/Works/Work3.png",
             "title": "ToDo List App Website",
-            "technologies": "Technologies: React.Js",
-            "link": "https://github.com/neillorrainecb/ToDo-List-App"
+            "technologies": "This To-Do List App website was my personal project. It represents as a tool for organizing and managing tasks, it was designed to enhance my skills in React.js and Styled Components.",
+            "link": "https://github.com/neillorrainecb/ToDo-List-App",
+            "demo": "https://github.com/neillorrainecb/ToDo-List-App"
         },
         {
             "id": 4,
             "src": "./img/Works/Work4.png",
             "title": "Personal Portfolio Website",
-            "technologies": "Technologies: React.Js",
+            "technologies": "This Personal website serves as a platform to showcase my projects and skills, it was developed using React.js and Styled Components.",
             "link": "https://github.com/neillorrainecb/Personal-Portfolio-Website",
             "demo": ""
+        },
+        {
+            "id": 5,
+            "src": "./img/Works/Work5.png",
+            "title": "2048 Game",
+            "technologies": "This website was made when I'm participating in ZUITT - Game Development Bootcamp - 2024. It was a game called 2048 and it was developed using HTML, JavaScript and CSS.",
+            "link": "https://github.com/neillorrainecb/bundoc-js-2048-fcb?tab=readme-ov-file",
+            "demo": "https://neillorrainecb.github.io/bundoc-js-2048-fcb/"
         }
     ]
 }
