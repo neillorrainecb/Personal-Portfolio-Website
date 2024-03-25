@@ -11,9 +11,7 @@ export default function HeroSection (){
                             Bundoc
                     </h1>
                     <p className="hero--section-description">
-                        Graduate of Bachelor of Science in Computer Science 
-                        <br />
-                        at National University Laguna.
+                        Aspiring Frontend Web Developer.
                     </p>
                 </div>
 
@@ -43,7 +41,5 @@ export default function HeroSection (){
             <div className="hero--section--img">
                 <img src="./img/hero-img.png" alt="Hero Section" />
             </div>
-
-            
         </section>
 }
