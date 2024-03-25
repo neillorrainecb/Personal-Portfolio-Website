@@ -39,6 +39,14 @@ export default function AboutMe(){
                             </div>
 
                             <div className="box">
+                                <img className="skills-icon" src="./img/Skills/S11.png" alt="" />
+                            </div>
+
+                            <div className="box">
+                                <img className="skills-icon" src="./img/Skills/S12.png" alt="" />
+                            </div>
+
+                            <div className="box">
                                 <img className="skills-icon" src="./img/Skills/S7.png" alt="" />
                             </div>
 
