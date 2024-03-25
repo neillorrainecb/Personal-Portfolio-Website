@@ -288,6 +288,10 @@ h3{
     color: var(--primary);
 }
 
+.hero--socials{
+    display: none;
+}
+
 /* About Me */
 .about--section{
     display: grid;
@@ -632,6 +636,14 @@ h3{
         padding-left: 50px;
     }
 
+    .hero--socials{
+        display: flex;
+        column-gap: 0.6rem;
+        margin-top: 1.5rem 0;
+    }
+
+    
+
     /* About Me */
     .about--section{
         display: flex;
@@ -707,6 +719,12 @@ h3{
     .hero--section-description{
         font-size: 13px;
         padding: 0;
+    }
+
+    .hero--socials{
+        display: flex;
+        column-gap: 0.6rem;
+        margin-top: 1.5rem 0;
     }
 
     /* About Me */
@@ -816,12 +834,12 @@ h3{
     }
 
     .hero--section--title{
-        font-size: 39px;
+        font-size: 45px;
         line-height: 50px;
     }
 
     .hero--section-description{
-        font-size: 18px;
+        font-size: 16px;
     }
   }
   
