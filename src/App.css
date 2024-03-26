@@ -726,7 +726,8 @@ h3{
     }
 
     .cert-img{
-        height: 15rem;
+        height: 100%;
+        width: 100%;
     }
 
     /* Footer */
@@ -856,7 +857,8 @@ h3{
     }
 
     .cert-img{
-        height: 15rem;
+        height: 100%;
+        width: 100%;
     }
 
     /* Footer */
